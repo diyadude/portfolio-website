@@ -211,6 +211,103 @@ a {
     box-shadow: 2px 3px 10px rgba(0,0,0,0.2);
 }
 
+/* blog */
+.blog__container {
+    background: var(--section-color);
+    border-radius: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+.blog__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 6rem;
+}
+
+.blog__post {
+    max-width: 430px;
+    background-color: #dedada91;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 16px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 100ms ease-in 150ms;
+    /* transition: ; */
+    position: relative;
+}
+
+.blog__post:hover {
+    transform: scale(1.02);
+}
+
+.blog__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.blog__image {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.blog__post-title {
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.blog__post-desc {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.blog__post-footer {
+}
+
+.blog__tags-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 1.3rem
+}
+
+.blog__tag {
+}
+
+.blog__post-detail {
+    margin-top: 1.6rem;
+    border-top: 1px solid #bbb8b8;
+    padding: 0.6rem 0;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.author__name {
+    font-weight: 500;
+    font-size: 1.25rem;
+    transition: all 100ms ease-out 50ms;
+}
+
+.author__name:hover {
+    transform: scale(1.1);
+}
+
 /* skills */
 .skill__container {
     background: var(--section-color);

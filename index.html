@@ -15,16 +15,17 @@
         <header>
             <div class="header__container">
                 <div class="header__top">
-                    <div class="header__left-side">
+                    <div class="header__left">
                         <div class="header__email-container">
                             <p class="header__email">diyabedson@gmail.com</p>
                             <button class="header__email-btn">Copy</button>
                         </div>
                         <a href="#" class="header__cv-btn">cv</a>
                     </div>   
-                    <div class="header__right-side">
-                        <a href="#" class="header__social">LinkedIn</a> /
-                        <a href="#" class="header__social">Telegram</a>
+                    <div class="header__right">
+                        <a href="#blog" class="header__nav">Blog</a> /
+                        <a href="#" class="header__nav">LinkedIn</a> /
+                        <a href="#contact" class="header__nav">Contact</a>
                     </div>
                 </div>
                 <div class="header__bottom">
@@ -43,13 +44,20 @@
             <div class="section__bar">
               <h3 class="section__title">personal blog</h3>
            </div>
-           <section class="blog__container">
+           <section class="blog__container" id="blog">
             <h2 class="section__desc">Latest Blog Posts</h2>
+            <h4 class="blog__nav">
+              <a class="blog__nav-link" href="#">Take me there</a>
+              <svg class="blog__nav-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </h4>
             <div class="blog__wrapper">
               <!-- post -->
               <div class="blog__post">
-                <a href="#">
-                  <img src="./images/blog/digital.jpg" alt="Digital World" class="blog__image">
+                  <a href="#">
+                    <img src="./images/blog/digital.jpg" alt="Digital World" class="blog__image">
+                  </a>
                   <div class="blog__content-wrapper">
                     <div class="blog__post-header">
                       <h3 class="blog__post-title">Living in a digital world</h3>
@@ -66,21 +74,29 @@
                         </span>
                       </div>
                       <div class="blog__post-detail">
-                        <span class="author">
-                        By <a class="author__name" href="#">Diya</a>
-                        </span>
-                        <span class="">
-                          <time datetime="#">2025/03/02</time>
+                        <div class="blog__detail">
+                          <span class="author">
+                            By <a class="author__name" href="#">Diya</a>
+                            </span>
+                            <span class="">
+                              <time datetime="#">2025/03/02</time>
+                            </span>
+                        </div>
+                        <span class="blog__more">
+                          <span><a href="#">More</a></span> 
+                          <svg class="blog__more-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                          </svg>
                         </span>
                       </div>
                     </div>
                   </div>
-                </a>
               </div>
 
                 <div class="blog__post">
                   <a href="#">
-                  <img src="./images/blog/space-ship.jpg" alt="Space Ship" class="blog__image">
+                    <img src="./images/blog/space-ship.jpg" alt="Space Ship" class="blog__image">
+                  </a>
                   <div class="blog__content-wrapper">
                     <div class="blog__post-header">
                       <h3 class="blog__post-title">When future becomes accessible</h3>
@@ -100,21 +116,29 @@
                         </span>
                       </div>
                       <div class="blog__post-detail">
-                        <span class="author">
-                          By <a class="author__name" href="#">Diya</a>
-                        </span>
-                        <span class="">
-                          <time datetime="#">2023/04/08</time>
+                        <div class="blog__detail">
+                          <span class="author">
+                            By <a class="author__name" href="#">Diya</a>
+                            </span>
+                            <span class="">
+                              <time datetime="#">2023/04/09</time>
+                            </span>
+                        </div>
+                        <span class="blog__more">
+                          <span><a href="#">More</a></span> 
+                          <svg class="blog__more-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                          </svg>
                         </span>
                       </div>
                     </div>
                   </div>
-                </a>
                 </div>
               
                   <div class="blog__post">
-                    <a href="#">
-                      <img src="./images/blog/hardware.jpg" alt="Hardware" class="blog__image">
+                      <a href="#">
+                        <img src="./images/blog/hardware.jpg" alt="Hardware" class="blog__image">
+                      </a>
                       <div class="blog__content-wrapper">
                         <div class="blog__post-header">
                           <h3 class="blog__post-title">Interested in computer hardware?</h3>
@@ -131,16 +155,23 @@
                             </span>
                           </div>
                           <div class="blog__post-detail">
-                            <span class="author">
-                              By <a class="author__name" href="#">Diya</a>
-                            </span>
-                            <span class="">
-                              <time datetime="#">2022/01/24</time>
+                            <div class="blog__detail">
+                              <span class="author">
+                                By <a class="author__name" href="#">Diya</a>
+                                </span>
+                                <span class="">
+                                  <time datetime="#">2024/10/29</time>
+                                </span>
+                            </div>
+                            <span class="blog__more">
+                              <span><a href="#">More</a></span> 
+                              <svg class="blog__more-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                              </svg>
                             </span>
                           </div>
                         </div>
                       </div>
-                    </a>
                   </div>
             </div>
            </section>
@@ -232,7 +263,7 @@
             <!-- Portfolio -->
         </main>
         <footer>
-          <div class="footer__container">
+          <div class="footer__container" id="contact">
             <img class="footer__image" src="https://img.icons8.com/external-bzzricon-outline-bzzricon-studio/64/external-agreement-business-bzzricon-outline-bzzricon-outline-bzzricon-studio.png" alt="external-agreement-business-bzzricon-outline-bzzricon-outline-bzzricon-studio"/>
             <h3 class="footer__desc">Tell me about your next project</h3>
             <div class="footer__buttons-wrapper">

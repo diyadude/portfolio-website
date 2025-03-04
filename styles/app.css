@@ -52,8 +52,8 @@ p::selection {
 .header__container {
     background-color: var(--section-color);
     border-radius: 4rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
     padding-top: 2rem;
     height: auto;
 }
@@ -222,12 +222,13 @@ a {
 .blog__wrapper {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    flex-wrap: wrap;
+    gap: 3rem;
     padding-top: 6rem;
 }
 
 .blog__post {
-    max-width: 430px;
+    max-width: 450px;
     background-color: #dedada91;
     border-radius: 1rem;
     box-shadow: 1px 1px 16px 4px rgba(0, 0, 0, 0.2);
@@ -244,7 +245,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 400px;
+    min-height: 330px;
     padding-right: 1.5rem;
     padding-bottom: 1rem;
     padding-left: 1.5rem;
@@ -252,18 +253,19 @@ a {
 
 .blog__image {
     max-width: 100%;
-    height: 300px;
+    height: 310px;
+    object-fit: cover;
     border-radius: 1rem;
 }
 
 .blog__post-title {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin-top: 1.5rem;
     margin-bottom: 1.8rem;
 }
 
 .blog__post-desc {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.4rem;
 }
 
@@ -276,14 +278,14 @@ a {
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    font-size: 1.3rem
+    font-size: 1.2rem;
 }
 
 .blog__tag {
 }
 
 .blog__post-detail {
-    margin-top: 1.6rem;
+    margin-top: 1.4rem;
     border-top: 1px solid #bbb8b8;
     padding: 0.6rem 0;
     display: flex;

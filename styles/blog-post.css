@@ -1,0 +1,144 @@
+:root {
+    --section-color: #dedada91;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #000;
+    font-family: "Barlow", serif;
+    color: #fff;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+a::selection,
+p::selection {
+    background-color: rgba(173, 164, 164, 0.437);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 150ms ease-in-out 50ms;
+}
+
+.wrapper {
+    max-width: 90vw;
+    background-color: transparent;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* padding-top: 1rem; */
+}
+
+.container::selection {
+    background: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1.4rem;
+}
+
+#header__nav li {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 9px 18px;
+    transition: 
+        background-color 150ms ease-in, 
+        color 250ms ease-out,
+        transform 100ms ease-in;
+}
+
+ul li:hover {
+    background-color: #8699bfc6;
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+#home-btn {
+    margin-left: 3rem;
+    font-size: 1.6rem;
+}
+
+#github-btn,
+#contact-btn {
+    display: flex;
+    gap: .2rem;
+}
+
+#github-btn svg,
+#contact-btn svg {
+    width: 1.4rem;
+}
+
+/* footer */
+.footer__container {
+    margin-top: 7rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.412);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__top {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+#footer__socials {
+    list-style: none;
+    margin-top: 1.4rem;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+#linkedin-btn {
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#linkedin-btn img {
+    color: red;
+}
+
+.footer__copyright {
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 30%;
+    margin: 4rem auto .5rem;
+}
